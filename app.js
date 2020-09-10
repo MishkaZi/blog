@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 //Connecting to mongoDB and creating new DB todolistDB
-mongoose.connect("mongodb+srv://admin-misha:test123@cluster0.3uins.mongodb.net/blogDB", {
+mongoose.connect("*******************************mongoDB connection url******************************", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
